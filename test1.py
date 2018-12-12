@@ -10,7 +10,7 @@ class SimpleTest(unittest.TestCase):
 
     def test_sub(self):
         a = sub(5,2)
-        self.assertEqual(3.5,a)
+        self.assertEqual(3,a)
   
 if __name__ == '__main__': 
     unittest.main() 
